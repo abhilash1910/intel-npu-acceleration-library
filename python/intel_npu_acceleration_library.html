@@ -407,6 +407,7 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel-npu-acceleration-library-backend-factory-module">intel_npu_acceleration_library.backend.factory module</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory"><code class="docutils literal notranslate"><span class="pre">NNFactory</span></code></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory.compile"><code class="docutils literal notranslate"><span class="pre">NNFactory.compile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory.convolution"><code class="docutils literal notranslate"><span class="pre">NNFactory.convolution()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory.get_backend_dtype"><code class="docutils literal notranslate"><span class="pre">NNFactory.get_backend_dtype()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory.get_output_tensor_shape"><code class="docutils literal notranslate"><span class="pre">NNFactory.get_output_tensor_shape()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.factory.NNFactory.linear"><code class="docutils literal notranslate"><span class="pre">NNFactory.linear()</span></code></a></li>
@@ -458,6 +459,7 @@ document.write(`
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#module-intel_npu_acceleration_library.backend">Module contents</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.Convolution"><code class="docutils literal notranslate"><span class="pre">Convolution</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.Linear"><code class="docutils literal notranslate"><span class="pre">Linear</span></code></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.Linear.run"><code class="docutils literal notranslate"><span class="pre">Linear.run()</span></code></a></li>
 </ul>
@@ -469,6 +471,7 @@ document.write(`
 </li>
 <li class="toctree-l3"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory"><code class="docutils literal notranslate"><span class="pre">NNFactory</span></code></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory.compile"><code class="docutils literal notranslate"><span class="pre">NNFactory.compile()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory.convolution"><code class="docutils literal notranslate"><span class="pre">NNFactory.convolution()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory.get_backend_dtype"><code class="docutils literal notranslate"><span class="pre">NNFactory.get_backend_dtype()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory.get_output_tensor_shape"><code class="docutils literal notranslate"><span class="pre">NNFactory.get_output_tensor_shape()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.backend.html#intel_npu_acceleration_library.backend.NNFactory.linear"><code class="docutils literal notranslate"><span class="pre">NNFactory.linear()</span></code></a></li>
@@ -545,7 +548,6 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#module-intel_npu_acceleration_library.nn">Module contents</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d"><code class="docutils literal notranslate"><span class="pre">Conv2d</span></code></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d.bias"><code class="docutils literal notranslate"><span class="pre">Conv2d.bias</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d.compute_output_dim"><code class="docutils literal notranslate"><span class="pre">Conv2d.compute_output_dim()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d.forward"><code class="docutils literal notranslate"><span class="pre">Conv2d.forward()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d.fromTorch"><code class="docutils literal notranslate"><span class="pre">Conv2d.fromTorch()</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="intel_npu_acceleration_library.nn.html#intel_npu_acceleration_library.nn.Conv2d.weight"><code class="docutils literal notranslate"><span class="pre">Conv2d.weight</span></code></a></li>
